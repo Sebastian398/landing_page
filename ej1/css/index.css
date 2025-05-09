@@ -1,0 +1,123 @@
+* { margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+    body { 
+        font-family: 'Arial Rounded MT Bold', Arial, sans-serif; 
+        background: #fff9f0; 
+        color: #222; 
+    }
+
+    header {
+        background: #ff8300; 
+    }
+
+    nav { 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        max-width: 1200px; 
+        margin: 0 auto; 
+        padding: 1rem; 
+    }
+
+    nav ul { 
+        display: flex; 
+        gap: 2rem; 
+        list-style: none; /* Establece un estilo para la lista o la deja sin estilo*/
+    }
+
+    nav a { 
+        color: #fff; 
+        text-decoration: none; /* Ayuda para quitar el subrayado de los textos*/
+        font-weight: bold; 
+        font-size: 1.1rem; 
+    }
+
+    .main-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 2rem auto;
+      background: #fff;
+      border-radius: 1rem;
+      padding: 2rem;
+    }
+    .main-section img {
+      width: 100%;
+      max-width: 350px;
+      border-radius: 1rem;
+      display: block;
+      margin: 0 auto;
+    }
+    .main-section-text h1 {
+      color: #ff8300;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .main-section-text p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .cards-section {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem; /* Es una forma de separar las cards*/
+      max-width: 1200px;
+      margin: 2rem auto;
+    }
+
+    .card {
+      background: #fff4e1;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .card h2 { 
+        color: #ff8300; 
+        margin-bottom: 0.5rem; 
+    }
+
+    .card p { 
+        font-size: 1rem; 
+        color: #444; 
+    }
+
+    .contact-section {
+        max-width: 600px;
+        margin: 3rem auto 2rem auto;
+        background: #fff;
+        border-radius: 1rem;
+        box-shadow: 0 2px 8px rgba(255,131,0,0.12);
+        padding: 2rem;
+        font-size: 1.1rem;
+        color: #444;
+      }
+      .contact-section h2 {
+        color: #ff8300;
+        margin-bottom: 1rem;
+      }
+      .contact-section ul {
+        list-style: none;
+        padding-left: 0;
+      }
+      .contact-section ul li {
+        margin-bottom: 0.8rem;
+      }
+      
+    footer {
+      background: #ff8300;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+    .fanta {
+        height: 60px;
+    }
